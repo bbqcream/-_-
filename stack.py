@@ -59,5 +59,3 @@ def checkBrackets(statement):
                     return False # 조건 3 위반
                 
     return stack.isEmpty() # False 반환되면 조건 1 위반 (뭐 하나는 여는 괄호만 들어갔다는 얘기)
-                
-    
